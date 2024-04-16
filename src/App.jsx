@@ -10,8 +10,8 @@ function App() {
     <>
       <Header />
       <WordCard />
-      <Footer />
       <Table />
+      <Footer />
     </>
   )
 }
