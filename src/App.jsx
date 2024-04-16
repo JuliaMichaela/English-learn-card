@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import WordCard from './components/WordCard/WordCard'
 import Footer from './components/Footer/Footer'
+import Table from './components/Table/Table'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <WordCard />
       <Footer />
+      <Table />
     </>
   )
 }
