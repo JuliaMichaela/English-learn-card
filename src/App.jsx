@@ -1,4 +1,4 @@
-import './style/App.css'
+import './App.css'
 import Header from './components/Header/Header'
 import WordCard from './components/WordCard/WordCard'
 import Footer from './components/Footer/Footer'
