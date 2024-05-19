@@ -14,3 +14,24 @@
     width: 60px;
     color: white;
 }
+
+headerText {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 253, 253);
+}
+
+.navigator {
+    background-color: rgb(47, 197, 47);
+    color: rgb(255, 253, 253);
+    align-items: center;
+    display: flex;
+}
+
+a {     padding: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
