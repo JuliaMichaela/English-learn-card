@@ -1,7 +1,9 @@
-import React from 'react'
+import Table from "../../components/Table/Table";
 
 export default function TablePage() {
     return (
-        <div>TablePage</div>
+        <div className={style.tableContainer}>
+            <Table />
+        </div>
     )
 }
