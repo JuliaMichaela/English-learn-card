@@ -1,4 +1,6 @@
-import Table from "../../components/Table/Table";
+import Table from "../../Components/Table/Table";
+import style from '../TablePage/tablePage.module.scss'
+
 
 export default function TablePage() {
     return (
