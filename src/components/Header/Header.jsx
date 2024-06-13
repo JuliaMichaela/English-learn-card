@@ -7,8 +7,8 @@ export default function Header() {
             <div className={style.headerText}>Learning English Words</div>
             <nav className={style.navigator}>
                 <div>Home</div>
-                {/* <div>Game</div>
-                <div>Table</div> */}
+                <div>Game</div>
+                <div>Table</div>
             </nav>
         </div>
     )
