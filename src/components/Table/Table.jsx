@@ -1,7 +1,7 @@
 import './Table.css'
 
-export default function Table() {
-    return (
-        <div>Table</div>
-    )
-}
+// export default function Table() {
+//     return (
+//         <div>Table</div>
+//     )
+// }
