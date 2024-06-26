@@ -4,6 +4,6 @@ import { useState, useEffect } from 'react'
 
 export default function ErrorPage() {
     return (
-        <div>ErrorPage</div>
+        <div>404</div>
     )
 }
