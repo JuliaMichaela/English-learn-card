@@ -1,5 +1,5 @@
 import './Table.css'
-// import words from '../../words.json';
+import words from '../../words.json';
 import TableRow from '../TableRow/TableRow';
 
 export default function Table({ words, setWords }) {
