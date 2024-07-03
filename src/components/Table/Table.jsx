@@ -9,18 +9,18 @@ export default function Table({ words, setWords }) {
         setWords(filterWords);
     }
 
-    function editWord(id, eng, transc, rus) {
-        const arrEditWords = words.map(item => {
-            if (item.id === id) {
-                item.english = eng
-                item.transcription = transc
-                item.russian = rus
-                return item;
-            }
-            return item;
-        });
-        setWords(arrEditWords);
-    }
+    // function editWord(id, eng, transc, rus) {
+    //     const arrEditWords = words.map(item => {
+    //         if (item.id === id) {
+    //             item.english = eng
+    //             item.transcription = transc
+    //             item.russian = rus
+    //             return item;
+    //         }
+    //         return item;
+    //     });
+    //     setWords(arrEditWords);
+    // }
 
     return (
         <div className={style.table}>
