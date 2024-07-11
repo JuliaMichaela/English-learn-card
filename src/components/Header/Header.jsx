@@ -9,6 +9,7 @@ export default function Header() {
                 <div>Home</div>
                 <div>Game</div>
                 <div>Table</div>
+                <div></div>
             </nav>
         </div>
     )

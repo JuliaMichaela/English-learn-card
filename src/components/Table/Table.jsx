@@ -37,9 +37,9 @@ export default function Table({ words, setWords }) {
                     {words.map((item) => (
                         <TableRow
                             isEdited={false}
-                            key={item.id}
-                            engVersion={item.english}
-                            rusVersion={item.russian}
+                            // key={item.id}
+                            // engVersion={item.english}
+                            // rusVersion={item.russian}
                             transcription={item.transcription}
                             id={item.id}
                             delWord={delWord}
