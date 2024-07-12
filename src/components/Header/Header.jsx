@@ -6,9 +6,9 @@ export default function Header() {
             <img className={style.logo} src={logo} alt={"logo"} />
             <div className={style.headerText}>Learning English Words</div>
             <nav className={style.navigator}>
-                <div>Home</div>
+                {/* <div>Home</div>
                 <div>Game</div>
-                <div>Table</div>
+                <div>Table</div> */}
                 <div></div>
             </nav>
         </div>
