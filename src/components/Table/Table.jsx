@@ -9,7 +9,7 @@ export default function Table({ words, setWords }) {
         setWords(filterWords);
 
 
-        
+
     }
 
     function editWord(id, eng, transc, rus) {
@@ -24,6 +24,10 @@ export default function Table({ words, setWords }) {
         });
         setWords(arrEditWords);
     }
+
+
+
+    
 
     return (
         <div className={style.table}>
