@@ -27,6 +27,12 @@ export default function Table({ words, setWords }) {
 
 
 
+   
+    
+
+
+
+
     
 
     return (
