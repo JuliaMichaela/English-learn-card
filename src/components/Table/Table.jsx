@@ -27,14 +27,6 @@ export default function Table({ words, setWords }) {
 
 
 
-   
-    
-
-
-
-
-    
-
     return (
         <div className={style.table}>
             <table>
