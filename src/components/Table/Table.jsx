@@ -7,9 +7,6 @@ export default function Table({ words, setWords }) {
     function delWord(id) {
         const filterWords = words.filter((item) => item.id != id);
         setWords(filterWords);
-
-
-
     }
 
     function editWord(id, eng, transc, rus) {
@@ -24,7 +21,6 @@ export default function Table({ words, setWords }) {
         });
         setWords(arrEditWords);
     }
-
 
 
     return (
