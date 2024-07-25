@@ -47,6 +47,9 @@ export default function Table({ words, setWords }) {
                             editWord={editWord}
 
 
+
+
+
                             
                         >
                         </TableRow>
