@@ -45,6 +45,10 @@ export default function Table({ words, setWords }) {
                             id={item.id}
                             delWord={delWord}
                             editWord={editWord}
+
+
+
+                            
                         >
                         </TableRow>
                     ))}
